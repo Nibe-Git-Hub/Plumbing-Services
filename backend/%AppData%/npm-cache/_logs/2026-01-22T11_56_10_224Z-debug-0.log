@@ -1,0 +1,120 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Project\SoftwaredsnL\VSCode\Plumbing Services\backend\.npmrc
+5 silly config load:file:C:\Users\AI LAB 32\.npmrc
+6 silly config load:file:C:\Project\SoftwaredsnL\VSCode\Plumbing Services\backend\%AppData%\npm\etc\npmrc
+7 verbose title npm i @reduxjs/toolkit
+8 verbose argv "i" "@reduxjs/toolkit"
+9 verbose logfile logs-max:10 dir:C:\Project\SoftwaredsnL\VSCode\Plumbing Services\backend\%AppData%\npm-cache\_logs\2026-01-22T11_56_10_224Z-
+10 verbose logfile C:\Project\SoftwaredsnL\VSCode\Plumbing Services\backend\%AppData%\npm-cache\_logs\2026-01-22T11_56_10_224Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @reduxjs/toolkit@*
+15 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@reduxjs%2ftoolkit 223ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit set size:undefined disposed:false
+18 silly fetch manifest react@^16.9.0 || ^17.0.0 || ^18 || ^19
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http cache https://registry.npmjs.org/react 13ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:6402136 disposed:false
+22 silly fetch manifest react-redux@^9.2.0
+23 silly packumentCache full:https://registry.npmjs.org/react-redux cache-miss
+24 http cache https://registry.npmjs.org/react-redux 4ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/react-redux set size:578468 disposed:false
+26 silly fetch manifest @types/react@^18.2.25 || ^19
+27 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+28 http cache https://registry.npmjs.org/@types%2freact 6ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2551060 disposed:false
+30 silly fetch manifest redux@^5.0.0
+31 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+32 http cache https://registry.npmjs.org/redux 5ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/redux set size:553833 disposed:false
+34 silly placeDep ROOT @reduxjs/toolkit@2.11.2 OK for:  want: *
+35 silly fetch manifest @standard-schema/spec@^1.0.0
+36 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+37 silly fetch manifest @standard-schema/utils@^0.3.0
+38 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils cache-miss
+39 silly fetch manifest immer@^11.0.0
+40 silly packumentCache full:https://registry.npmjs.org/immer cache-miss
+41 silly fetch manifest reselect@^5.1.0
+42 silly packumentCache full:https://registry.npmjs.org/reselect cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 89ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2futils 198ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/immer 211ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/immer set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/reselect 264ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/reselect set size:undefined disposed:false
+51 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: @reduxjs/toolkit@2.11.2 want: ^1.0.0
+52 silly placeDep ROOT @standard-schema/utils@0.3.0 OK for: @reduxjs/toolkit@2.11.2 want: ^0.3.0
+53 silly placeDep ROOT immer@11.1.3 OK for: @reduxjs/toolkit@2.11.2 want: ^11.0.0
+54 silly placeDep ROOT reselect@5.1.1 OK for: @reduxjs/toolkit@2.11.2 want: ^5.1.0
+55 silly reify moves {}
+56 silly audit bulk request {
+56 silly audit   '@types/use-sync-external-store': [ '0.0.6' ],
+56 silly audit   asynckit: [ '0.4.0' ],
+56 silly audit   axios: [ '1.13.2' ],
+56 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+56 silly audit   'combined-stream': [ '1.0.8' ],
+56 silly audit   'delayed-stream': [ '1.0.0' ],
+56 silly audit   'dunder-proto': [ '1.0.1' ],
+56 silly audit   'es-define-property': [ '1.0.1' ],
+56 silly audit   'es-errors': [ '1.3.0' ],
+56 silly audit   'es-object-atoms': [ '1.1.1' ],
+56 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+56 silly audit   'follow-redirects': [ '1.15.11' ],
+56 silly audit   'form-data': [ '4.0.5' ],
+56 silly audit   'function-bind': [ '1.1.2' ],
+56 silly audit   'get-intrinsic': [ '1.3.0' ],
+56 silly audit   'get-proto': [ '1.0.1' ],
+56 silly audit   gopd: [ '1.2.0' ],
+56 silly audit   'has-symbols': [ '1.1.0' ],
+56 silly audit   'has-tostringtag': [ '1.0.2' ],
+56 silly audit   hasown: [ '2.0.2' ],
+56 silly audit   'math-intrinsics': [ '1.1.0' ],
+56 silly audit   'mime-db': [ '1.52.0' ],
+56 silly audit   'mime-types': [ '2.1.35' ],
+56 silly audit   'proxy-from-env': [ '1.1.0' ],
+56 silly audit   react: [ '19.2.3' ],
+56 silly audit   'react-redux': [ '9.2.0' ],
+56 silly audit   redux: [ '5.0.1' ],
+56 silly audit   'redux-thunk': [ '3.1.0' ],
+56 silly audit   'use-sync-external-store': [ '1.6.0' ],
+56 silly audit   '@reduxjs/toolkit': [ '2.11.2' ],
+56 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+56 silly audit   '@standard-schema/utils': [ '0.3.0' ],
+56 silly audit   immer: [ '11.1.3' ],
+56 silly audit   reselect: [ '5.1.1' ]
+56 silly audit }
+57 http cache immer@https://registry.npmjs.org/immer/-/immer-11.1.3.tgz 0ms (cache hit)
+58 http cache reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 0ms (cache hit)
+59 http cache @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 0ms (cache hit)
+60 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+61 http cache @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.2.tgz 0ms (cache hit)
+62 silly tarball no local data for immer@https://registry.npmjs.org/immer/-/immer-11.1.3.tgz. Extracting by manifest.
+63 silly tarball no local data for reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz. Extracting by manifest.
+64 silly tarball no local data for @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz. Extracting by manifest.
+65 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+66 silly tarball no local data for @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.2.tgz. Extracting by manifest.
+67 http fetch GET 200 https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 93ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 127ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/immer/-/immer-11.1.3.tgz 170ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 182ms (cache miss)
+71 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 268ms
+72 silly audit report {}
+73 http fetch GET 200 https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.2.tgz 760ms (cache miss)
+74 silly ADD node_modules/reselect
+75 silly ADD node_modules/immer
+76 silly ADD node_modules/@standard-schema/utils
+77 silly ADD node_modules/@standard-schema/spec
+78 silly ADD node_modules/@reduxjs/toolkit
+79 verbose cwd C:\Project\SoftwaredsnL\VSCode\Plumbing Services\backend
+80 verbose os Windows_NT 10.0.22621
+81 verbose node v24.11.1
+82 verbose npm  v11.6.2
+83 verbose exit 0
+84 info ok
